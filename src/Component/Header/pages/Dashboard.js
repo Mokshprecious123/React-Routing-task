@@ -1,14 +1,12 @@
-import React from 'react'
-import { useState } from 'react'
-import ProfileSettingpage from './ProfileSettingpage'
+import React from "react";
+
+
 const Dashboard = () => {
-  const [set,setflag] = useState(true)
 
-  return (
-    <div>
-    {set && <ProfileSettingpage/>}
-    </div>
+  return(
+    <>
+ 
+    </>
   )
-}
-
-export default Dashboard
+  }
+export default Dashboard;

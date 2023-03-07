@@ -6,7 +6,7 @@ import Loginpage from '../Component/Header/pages/Loginpage';
 import Signuppage from '../Component/Header/pages/Signuppage';
 import Dashboard from "../Component/Header/pages/Dashboard";
 import ErrorPage from "../Component/Header/pages/ErrorPage"
-import ProfileSettingpage from "../Component/Header/pages/ProfileSettingpage";
+import Profileinfo from "../Component/Header/pages/ProfileSettingpage";
 
 export const AppRoutes = () => {
   
@@ -17,7 +17,7 @@ export const AppRoutes = () => {
       <Route path="/login" element={<Loginpage/>}></Route>
       <Route path="/signup" element={<Signuppage/>}></Route>
       <Route path="/dashboard" element={<Dashboard/>}></Route>
-      <Route path="/profile" element={<ProfileSettingpage/>}></Route>
+      <Route path="/profilesettingPage" element={<Profileinfo/>}></Route>
       <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>
   );
